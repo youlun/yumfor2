@@ -6,7 +6,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -39,20 +39,44 @@ ul.nav-list{
     color: #E5E7EB;
 }
 
-/* helper border */
-.container, 
-footer, header {
-    border: 5px solid orange;
+/* main styles */
+main {
+    flex: 1;
 }
 
-
-/* main styles */
+button {
+    background-color: #3882F6;
+    padding: 6px 18px;
+    font-size: 12px;
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+}
 
 .container.hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 60px 8px 30px;
+    gap: 25px;
 }
 
+.hero-intro h1{
+    margin: 0;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.hero-intro p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-img {
+    width: 600px;
+    height: 200px;
+    background-color: gray;
+    color: white;
+    flex: 1 1 auto;
+}
 
 /* container color styles */
 .bleed-blue {
