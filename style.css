@@ -6,16 +6,16 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* header styles */
 header {
-    background-color: #1F2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-end;
-    padding-top: 12px;
-    padding-bottom: 6px;
+    padding: 16px 8px 8px;
 }
 
 .logo a {
@@ -39,6 +39,30 @@ ul.nav-list{
     color: #E5E7EB;
 }
 
-.container {
+/* helper border */
+.container, 
+footer, header {
     border: 5px solid orange;
+}
+
+
+/* main styles */
+
+.container.hero {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* container color styles */
+.bleed-blue {
+    box-shadow: 0 0 0 100vmax #1F2937;
+    clip-path: inset(0 -100vmax);
+    background-color: #1F2937;
+}
+
+.bleed-gray {
+    box-shadow: 0 0 0 100vmax #E5E7EB;
+    clip-path: inset(0 -100vmax);
+    background-color: #E5E7EB;
 }
