@@ -1,1 +1,99 @@
 /* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+.layout {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.logo a {
+    color: #f9faf8;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+ul.nav-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+ul.nav-list li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+article.header div.header-info h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+
+
+
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #1f2937;
+}
+
+
+
+/* helper borders */
+/* nav {
+    border: 5px solid yellow;
+}
+header {
+    border: 10px solid purple;
+}
+
+main {
+    border: 10px solid lightgreen;
+}
+
+article {
+    border: 5px solid green;
+}
+
+section {
+    border: 2px solid red;
+}
+
+footer {
+    border: 5px solid purple;
+} */
+/* end helper borders */
+
+/* top header */
